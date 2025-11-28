@@ -1,12 +1,11 @@
 #include <iostream>
 #include <vector>
 #include <string> // for encoding
-#include <limits>   // for numeric_limits
 using namespace std;
 
 int main() {
 
-	int option = 0; // initialize so it's safe if input fails
+	int option;
 
 	do { // dowhile to loop the program until 3 is entered
 
